@@ -1,0 +1,94 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Check that main elements on Google Homepage are displayed",
+        "description": "",
+        "id": "google-homepage;check-that-main-elements-on-google-homepage-are-displayed",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1632648400,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I launch Chrome browser",
+            "match": {
+              "location": "StepDefinition_Google.i_launch_Chrome_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 502122800,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I open Google Homepage",
+            "match": {
+              "location": "StepDefinition_Google.i_open_Google_Homepage()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 27107300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I verify that the page displays search text box",
+            "match": {
+              "location": "StepDefinition_Google.i_verify_that_the_page_displays_search_text_box()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 25123500,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "the page displays Google Search button",
+            "match": {
+              "location": "StepDefinition_Google.the_page_displays_Google_Search_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 14663700,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "the page displays Im Feeling Lucky button",
+            "match": {
+              "location": "StepDefinition_Google.the_page_displays_Im_Feeling_Lucky_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 666222400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "the browser close",
+            "match": {
+              "location": "StepDefinition_Google.the_browser_close()"
+            },
+            "keyword": "And "
+          }
+        ]
+      }
+    ],
+    "name": "Google Homepage",
+    "description": "This feature verifies the functionality on Google Homepage",
+    "id": "google-homepage",
+    "keyword": "Feature",
+    "uri": "GoogleHome.feature"
+  }
+]

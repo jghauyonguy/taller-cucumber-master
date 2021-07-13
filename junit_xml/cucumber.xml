@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="1" time="2.867888">
+<testcase classname="Google Homepage" name="Check that main elements on Google Homepage are displayed" time="2.867888">
+<system-out><![CDATA[Given I launch Chrome browser...............................................passed
+When I open Google Homepage.................................................passed
+Then I verify that the page displays search text box........................passed
+And the page displays Google Search button..................................passed
+And the page displays Im Feeling Lucky button...............................passed
+And the browser close.......................................................passed
+]]></system-out>
+</testcase>
+</testsuite>
